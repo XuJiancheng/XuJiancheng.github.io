@@ -62,51 +62,6 @@ body {
 	margin: 0 auto;
 }
 
-#banner {
-	width: 100%;
-}
-
-#banner .banner-top {
-	width: 100%;
-	position: relative;
-}
-
-#banner .banner-top .title {
-	position: absolute;
-	top: 8.33333%;
-	width: 100%;
-	text-align: center;
-	font-size: 24px;
-	color: #fff;
-	font-weight: 400;
-}
-
-#banner .banner-top .title .text {
-	width: 100%;
-	max-width: 380px;
-	margin: auto;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-}
-
-.banner-img-box {
-	width: 100%;
-}
-
-.banner-img-box img {
-	display: block;
-	width: 100%;
-}
-
-.banner-down-box {
-	position: absolute;
-	bottom: 30%;
-	left: 14.2735%;
-	text-align: center;
-	font-size: 0;
-}
-
 .down-btn {
 	vertical-align: top;
 	display: inline-block;
@@ -175,14 +130,6 @@ body {
 	height: 20px;
 	margin-right: 12px;
 	background-repeat: no-repeat;
-}
-
-.real_star {
-	background-image: url(../images/star.png);
-}
-
-.empty_star {
-	background-image: url(../images/empty_star.png);
 }
 
 .phone_warp {
