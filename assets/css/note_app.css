@@ -42,7 +42,6 @@ a:focus,
 #main .main_bg{
     position: relative;
     height: 560px;
-    background: url(../images/main_bg.jpg) 0 0 no-repeat;
     background-size:cover;
 }
 
