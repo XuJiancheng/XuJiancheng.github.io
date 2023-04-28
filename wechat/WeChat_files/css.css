@@ -1,8 +1,4 @@
-body {
-	margin: 0;
-	color: #666;
-	background: #f7f7f7;
-}
+
 
 body,
 h1,
@@ -53,13 +49,54 @@ a:focus,
 	outline: none;
 }
 
-body {
-	background: #f7f7f7;
-}
-
-#main {
+.main-wechat {
 	max-width: 1170px;
 	margin: 0 auto;
+}
+
+#wechatwrap {
+	width: 100%;
+}
+
+#wechatwrap .wechatwrap-top {
+	width: 100%;
+	position: relative;
+}
+
+#wechatwrap .wechatwrap-top .title {
+	position: absolute;
+	top: 8.33333%;
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	font-weight: 400;
+}
+
+#wechatwrap .wechatwrap-top .title .text {
+	width: 100%;
+	max-width: 380px;
+	margin: auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.wechatwrap-img-box {
+	width: 100%;
+}
+
+.wechatwrap-img-box img {
+	display: block;
+	width: 100%;
+}
+
+.wechatwrap-down-box {
+	position: absolute;
+	bottom: 30%;
+	left: 14.2735%;
+	text-align: center;
+	font-size: 0;
 }
 
 .down-btn {
