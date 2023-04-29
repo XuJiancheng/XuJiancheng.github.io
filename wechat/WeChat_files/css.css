@@ -1,54 +1,4 @@
 
-
-body,
-h1,
-h2,
-
-h4,
-h5,
-h6,
-.h1,
-.h2,
-
-.h4,
-.h5,
-.h6,
-a {
-	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, "Microsoft YaHei";
-}
-
-h1,
-h2,
-
-h4,
-h5 {
-	margin: 0;
-}
-
-ul,
-li {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-a,
-a:hover,
-a:focus {
-	text-decoration: none;
-}
-
-a,
-a:focus,
-.btn:focus,
-.btn:active:focus,
-.btn.active:focus,
-.btn.focus,
-.btn.focus:active,
-.btn.active.focus {
-	outline: none;
-}
-
 .main-wechat {
 	max-width: 1170px;
 	margin: 0 auto;
@@ -176,7 +126,7 @@ a:focus,
 .phone_warp {
 	position: absolute;
 	left: 41.02564%;
-	bottom: 30%;
+	bottom: 10%;
 }
 
 .phone-box {
