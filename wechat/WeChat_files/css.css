@@ -76,11 +76,7 @@
 
 @media screen and (max-width:800px) {
 	.down-qrcode {
-		position: absolute;
-		bottom: 0;
-		right: 13.50247%;
-		text-align: center;
-		font-size: 0;
+		display: none;
 	}
 }
 
