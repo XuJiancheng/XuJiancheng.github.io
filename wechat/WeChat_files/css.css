@@ -75,7 +75,7 @@ a:focus,
 
 #wechatwrap .wechatwrap-top .title .text {
 	width: 100%;
-	max-width: 380px;
+	max-width: 600px;
 	margin: auto;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -127,6 +127,57 @@ a:focus,
 	.down-qrcode {
 		display: none;
 	}
+
+	.down-qrcode {
+		display: none;
+	}
+
+
+	#wechatwrap .wechatwrap-top .title {
+		position: absolute;
+		top: 8.33333%;
+		width: 100%;
+		text-align: center;
+		font-size: 18px;
+		color: #fff;
+		font-weight: 400;
+	}
+
+	#wechatwrap .wechatwrap-top .title .text {
+		width: 100%;
+		max-width: 600px;
+		margin: auto;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.wechatwrap-img-box {
+		width: 100%;
+	}
+
+	.wechatwrap-img-box img {
+		display: block;
+		width: 100%;
+	}
+
+	.wechatwrap-down-box {
+		position: absolute;
+		bottom: 30%;
+		left: 14.2735%;
+		text-align: center;
+		font-size: 0;
+	}
+
+	.phone_img {
+		display: none;
+	}
+
+	.screenshot_img {
+		width: 100%;
+		margin: 10px;
+	}
+
 }
 
 .down-qrcode img {
@@ -172,7 +223,7 @@ a:focus,
 .phone_warp {
 	position: absolute;
 	left: 41.02564%;
-	bottom: 0;
+	bottom: 30%;
 }
 
 .phone-box {
@@ -185,7 +236,7 @@ a:focus,
 
 .screenshot_img {
 	position: absolute;
-	top: 30px;
+	top: 47px;
 	left: 14px;
 	width: 186px;
 	height: 329px;
