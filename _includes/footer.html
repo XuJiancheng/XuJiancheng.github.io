@@ -1,54 +1,61 @@
 <!-- Footer -->
-<footer> 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <h3><i class="fa fa-map-marker"></i> Contact:</h3>
-        <p class="footer-contact">
-          {{ site.company_name }} <br>
-          Phone: {{ site.telephone_number }} <br>
-          Email: {{ site.company_email }}<br>
-        </p>
-      </div>
-      <div class="col-md-4">
-        <h3><i class="fa fa-external-link"></i> Links</h3>
-        <p><a href="https://www.douyin.com/user/MS4wLjABAAAAK80r-_Z5U8738cgtJnr57BghXEjhD_xPk7klZ2Aa4os"> 抖音</a></p>
-        <p><a href="https://space.bilibili.com/402314382/?spm_id_from=333.999.0.0"> 哔哩哔哩</a></p>
-        <p><a href="https://www.xiaohongshu.com/user/profile/5c5423f2000000001a00fbee?xhsshare=CopyLink&appuid=582c26dc82ec3917a6c865b1&apptime=1682490914"> 小红书</a></p>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3><i class="fa fa-map-marker"></i> Contact:</h3>
+                <p class="footer-contact">
+                    {{ site.company_name }} <br>
+                    Phone: {{ site.telephone_number }} <br>
+                    Email: {{ site.company_email }}<br>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h3><i class="fa fa-external-link"></i> Links</h3>
 
-      </div>
-      <div class="col-md-4">
-        <h3><i class="fa fa-heart"></i> Socialize</h3>
-        <div id="social-icons">
-          {% if site.googleplus_link %}
-            <a href="{{ site.googleplus_link }}" class="btn-group google-plus">
-              <i class="fa fa-google-plus"></i>
-            </a>
-          {% endif %}
+                <p><a href="https://space.bilibili.com/402314382/?spm_id_from=333.999.0.0"> 哔哩哔哩</a></p>
+                <p>
+                    <a href="https://www.xiaohongshu.com/user/profile/5c5423f2000000001a00fbee?xhsshare=CopyLink&appuid=582c26dc82ec3917a6c865b1&apptime=1682490914">
+                        小红书</a></p>
 
-          {% if site.linkedin_link %}
-            <a href="{{ site.linkedin_link }}" class="btn-group linkedin">
-              <i class="fa fa-linkedin-square"></i>
-            </a>
-          {% endif %}
+            </div>
+            <div class="col-md-4">
+                <h3><i class="fa fa-heart"></i></h3>
+                <p><a href="https://www.toutiao.com/video/7215097757726409276/?app=news_article&timestamp=1682784649&group_id=7215097757726409276&share_uid=MS4wLjABAAAAM1vKsARPkVdhPxN0a5eTHWU2SlNpaDaYx1gQpisy1hg&share_token=20B31082-38AF-4C8D-BD58-B36DFB3CB7A4&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share&source=m_redirect&wid=1682784689650
+"> 今日头条</a></p>
+                <p><a href="https://www.douyin.com/user/MS4wLjABAAAAK80r-_Z5U8738cgtJnr57BghXEjhD_xPk7klZ2Aa4os">
+                    抖音</a></p>
 
-          {% if site.facebook_link %}
-            <a href="{{ site.twitter_link }}" class="btn-group twitter">
-              <i class="fa fa-twitter"></i>
-            </a>
-          {% endif %}
+                <!--        <div id="social-icons">-->
+                <!--          {% if site.googleplus_link %}-->
+                <!--            <a href="{{ site.googleplus_link }}" class="btn-group google-plus">-->
+                <!--              <i class="fa fa-google-plus"></i>-->
+                <!--            </a>-->
+                <!--          {% endif %}-->
 
-          {% if site.facebook_link %}
-            <a href="{{ site.facebook_link }}" class="btn-group facebook">
-              <i class="fa fa-facebook"></i>
-            </a>
-          {% endif %}
+                <!--          {% if site.linkedin_link %}-->
+                <!--            <a href="{{ site.linkedin_link }}" class="btn-group linkedin">-->
+                <!--              <i class="fa fa-linkedin-square"></i>-->
+                <!--            </a>-->
+                <!--          {% endif %}-->
+
+                <!--          {% if site.facebook_link %}-->
+                <!--            <a href="{{ site.twitter_link }}" class="btn-group twitter">-->
+                <!--              <i class="fa fa-twitter"></i>-->
+                <!--            </a>-->
+                <!--          {% endif %}-->
+
+                <!--          {% if site.facebook_link %}-->
+                <!--            <a href="{{ site.facebook_link }}" class="btn-group facebook">-->
+                <!--              <i class="fa fa-facebook"></i>-->
+                <!--            </a>-->
+                <!--          {% endif %}-->
+                <!--        </div>-->
+            </div>
         </div>
-      </div>    
     </div>
-  </div>
 
-  <div class="copyright text center">
-    <p>&copy; Copyright {{ site.time | date: '%Y' }}, <a href="#">www.shouzhenminghui.com</a>. </p>
-  </div>
+    <div class="copyright text center">
+        <p>&copy; Copyright {{ site.time | date: '%Y' }}, <a href="#">www.shouzhenminghui.com</a>. </p>
+    </div>
 </footer>
