@@ -176,12 +176,11 @@
 		display: block;
 		bottom: 0;
 		width: 100%;
-		height: 100%;
 		margin: auto;
 	}
 }
 
-phone_img_2 {
+.phone_img_2 {
 	display: none;
 }
 
@@ -190,7 +189,6 @@ phone_img_2 {
 		display: block;
 		bottom: 0;
 		width: 100%;
-		height: 100%;
 		margin: auto;
 	}
 }
