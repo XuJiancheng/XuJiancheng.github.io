@@ -167,12 +167,25 @@
 	}
 }
 
-.phone-wrap {
+.phone_wrap {
+	display: block;
+}
+
+@media screen and (max-width:800px) {
+	.phone_wrap {
+		display: none;
+		bottom: 0;
+		width: 100%;
+		margin: auto;
+	}
+}
+
+.phone_wrap_2 {
 	display: none;
 }
 
 @media screen and (max-width:800px) {
-	.phone-wrap {
+	.phone_wrap_2 {
 		display: block;
 		bottom: 0;
 		width: 100%;
