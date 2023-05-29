@@ -1,0 +1,228 @@
+
+a,
+a:focus,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn.active.focus {
+    outline: none;
+}
+/*main*/
+#main{
+    max-width: 1170px;
+    margin: auto;
+    background: #fff;
+}
+#main .main_bg{
+    position: relative;
+    height: 560px;
+    background-size:cover;
+}
+
+#main .app_item{
+    position: absolute;
+    margin: 75px 0 0 17.094%;
+}
+#item .app_name{
+    text-align: center;
+    font-size: 24px;
+    color: #86c7b2;
+    padding-bottom: 50px;
+    width: 100%;
+    max-width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#item .app_details{
+    padding-bottom: 55px;
+    font-size: 16px;
+    width: 220px;
+    color: #666;
+}
+#item .android,
+#item .ios{
+    text-align: center;
+    padding-bottom: 40px;
+}
+#item .android a,
+#item .ios a{
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #9bceb1;
+    border-radius:6px ;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+#item .ios a .icon,
+#item .android a .icon{
+    display: block;
+    position: absolute;
+    margin: 12px 0 0 26px;
+    width: 26px;
+    height: 26px;
+}
+#item .android a .icon{
+    background: url(./Android_icon.png) 0 center no-repeat;
+}
+#item .ios a .icon{
+    background: url(./ios_icon.png) 0 center no-repeat;
+}
+#item .app_qrcode{
+    text-align: center;
+}
+#item .app_qrcode img{
+    width: 100px;
+}
+#item .install_tips{
+    color: #666;
+    font-size: 14px;
+}
+#page_right{
+    position: absolute;
+    margin:0 0 0 55%;
+}
+#page_right .banner_box{
+    position: relative;
+}
+#page_right .banner_box img{
+    width: 100%;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+#page_right .banner_2{
+    position: absolute;
+    z-index: 8;
+    top: 102px;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    max-height: 360px;
+}
+#page_right .banner_1{
+    position: absolute;
+    z-index: 9;
+    top: 58px;
+    left: 103px;
+    width: 250px;
+    height: 100%;
+    max-height: 440px;
+}
+#content{
+    background: #fff;
+}
+.score-warp{
+    padding-top: 30px;
+}
+.score-warp .lable{
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+.score-box{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0;
+}
+
+.app_details{
+    padding: 50px 7%;
+}
+.app_details .lable{
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: #333;
+}
+.app_details .text{
+    color: #333;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+@media (max-width: 768px) {
+    #page_right{
+        display: none;
+    }
+    #item .app_details{
+        margin: 0 auto;
+    }
+    #main .main_bg{
+        height: auto;
+    }
+    #main .app_item{
+        width: 100%;
+        position: relative;
+        margin: 0;
+        padding: 50px 0;
+    }
+    #header{
+        padding: 0 15px;
+    }
+    #header .title{
+        padding: 25px 0;
+    }
+}
+@media (max-width: 480px) {
+    body,html{
+        width: 100%;
+        height: 100%;
+
+    }
+    body{
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow:column nowrap;
+        flex-flow: column nowrap;
+        -webkit-align-content: center;
+        align-content: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+    #header{
+        min-height: 30px;
+    }
+    #header .title{
+        padding: 10px 0;
+    }
+    #header .logo {
+        display: none;
+        width: 90px;
+        height: 50px;
+        background-size:100% ;
+    }
+    #header .back{
+        display: none;
+    }
+    #main{
+        flex: 1;
+        margin: 0;
+        height: 100%;
+    }
+    #main .main_bg{
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow:column nowrap;
+        flex-flow: column nowrap;
+        -webkit-align-content: center;
+        align-content: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        position: relative;
+        height: 100%;
+    }
+    #main .app_item{
+        width: 100%;
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+
+}
+@media (max-width: 320px) {
+
+}
