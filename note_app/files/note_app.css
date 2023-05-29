@@ -404,9 +404,8 @@ a:focus,
 }
 
 #page_right{
-    background-color: #1BBD9B;
     position: absolute;
-    left: 10%;
+    left: 20%;
     top: 12%;
 }
 #page_right .banner_box{
@@ -429,7 +428,7 @@ a:focus,
     position: absolute;
     z-index: 9;
     top: 80px;
-    left: 51px;
+    left: 71px;
     width: 180px;
     height: 100%;
     max-height: 390px;
@@ -438,7 +437,7 @@ a:focus,
     position: absolute;
     z-index: 10;
     top: 58px;
-    left: 103px;
+    left: 123px;
     width: 200px;
     height: 100%;
     max-height: 433px;
