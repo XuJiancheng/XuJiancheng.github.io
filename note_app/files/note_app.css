@@ -270,7 +270,7 @@ a:focus,
 .down-qrcode {
     position: absolute;
     bottom: 30%;
-    right: 13.50247%;
+    right: 30%;
     text-align: center;
     font-size: 0;
 }
@@ -405,7 +405,7 @@ a:focus,
 
 #page_right{
     position: absolute;
-    left: 20%;
+    left: 30%;
     top: 12%;
 }
 #page_right .banner_box{
