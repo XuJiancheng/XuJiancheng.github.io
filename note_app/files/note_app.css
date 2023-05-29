@@ -406,7 +406,7 @@ a:focus,
 #page_right{
     background-color: #1BBD9B;
     position: absolute;
-    left: 30%;
+    left: 10%;
     bottom: 20%;
 }
 #page_right .banner_box{
